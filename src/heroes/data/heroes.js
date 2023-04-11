@@ -129,11 +129,11 @@ export const heroes = [
     },
     {
         'id': 'marvel-daredevil',
-        'superhero':'Daredevil', 
+        'superhero':'Perrillo Daredevil', 
         'publisher':'Marvel Comics', 
         'alter_ego':'Matthew Michael Murdock',
         'first_appearance':'Daredevil #1',
-        'characters':'Matthew Michael Murdock'
+        'characters':'Perrillo Misterioso'
     },
     {
         'id': 'marvel-hawkeye',
