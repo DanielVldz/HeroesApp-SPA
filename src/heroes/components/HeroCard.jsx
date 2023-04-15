@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import imgUrl from '/assets/heroes/marvel-spider.jpg'
 
 export const HeroCard = ({ 
         id,
@@ -15,7 +16,7 @@ export const HeroCard = ({
         <div className="card">
             <div className="row no-gutter">
                 <div className="col-4">
-                    <img src={heroImageUrl} className="card-img" alt={superhero}/>
+                    <img src={imgUrl} className="card-img" alt={superhero}/>
                 </div>
                 <div className="col-8">
                     <div className="card-body">
