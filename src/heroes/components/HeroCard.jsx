@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import imgUrl from '/assets/heroes/marvel-spider.jpg'
 
 export const HeroCard = ({ 
         id,
@@ -9,14 +8,14 @@ export const HeroCard = ({
         first_appearance,
         characters
  }) => {
-    const heroImageUrl = `/assets/heroes/${id}.jpg`;
+    const heroImageUrl = `/heroes/${id}.jpg`;
 
   return (
     <div className="col animate__animated animate__fadeIn">
         <div className="card">
             <div className="row no-gutter">
                 <div className="col-4">
-                    <img src={imgUrl} className="card-img" alt={superhero}/>
+                    <img src={heroImageUrl} className="card-img" alt={superhero}/>
                 </div>
                 <div className="col-8">
                     <div className="card-body">
